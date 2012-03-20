@@ -1,0 +1,70 @@
+html,body{margin:0;padding:0}
+body{font: 76% arial,sans-serif;text-align:center}
+div#container{width:75%;margin:0 auto}
+
+
+ 
+div#header{background:white;width:100%;height:90px}
+div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;color: #79B30B; text-align:left}
+div#header table{position:absolute;right:13%;top:30px}
+
+div#topnav{background:#ECEFF5;width:100%;height:30px}
+
+div#tblank{background:white;width:100%;height:10px}
+
+div#navigation{background:#ECEFF5;float:left;width:25%;height:600px}
+div#content{background:white;float:left;left:25%;width:50%;height:600px}
+div#extras{background:#ECEFF5;float:right;left:75%;width:24.9%;height:500px}
+
+div#footer{background:#333;color: #FFF;clear:both;width:100%;height:auto}
+div#footer p{margin:0;padding:5px 10px}
+div#footer a{display:inline;padding:0;color: #C6D5FD} 
+
+
+/*Login html*/
+div#lcontainer{position:absolute;width:75%;left:0.5%}
+
+div#lheader{background:white;width:100%;height:90px}
+div#lheader h1{height:80px;line-height:80px;margin:0;padding-left:10px;color: #79B30B; text-align:left}
+div#lheader table{position:absolute;right:0%;top:30px}
+
+div#ltopnav{background:ECEFF5;width:100%;height:30px}
+
+div#ltblank{background:white;width:100%;height:10%; text-align: left;padding-top: 1%}
+
+div#euser{float:left;width:40%;height:200px;border-width: .1em;border-style: solid;border-color: grey;padding:2%;text-align:left}
+div#lblankuser{background:white;float:left;left:40%;width:2%;height:200px}
+div#nuser{float:left;left:42%;width:40%;height:200px;border-width: .1em;border-style: solid;border-color: grey;padding:2%;text-align:justify}
+div#ltbblank{background:white;width:100%;height:80px;clear:both}
+
+div#framework-footer{clear:both; text-align:left}
+ 
+/*Registration html*/
+div#hinav{float:left;width:20%;height:auto;text-align:left;margin-top:1%;margin-left:0}
+ul.a{list-style-type:none;margin:0%}
+li.top{margin:0;text-align:left;width:91%}
+li.middle{margin:0;text-align:left;background:ECEFF5;width:91%}
+li.bottom{margin:0;text-align:left;width:91%}
+div#hinav a{text-align:left}
+
+div#framework-content{float:left;left:20%;width:80%;text-align:left;margin-top:1%}
+div#headerfocusbox{background:ECEFF5;width:90%;border-width: .1em;border-style: solid;border-color: grey;padding:2%;text-align:justify}
+p.parablue{color: 3B5998;}
+h1.title-section{font-size:0.9em;color:grey}
+td.smallFont{font-size:0.7em;}
+td.loginInfoFont{font-size:0.94em;}
+div#footerfocusbox{background:ECEFF5;width:90%;border-width: .1em;border-style: solid;border-color: grey;padding:1%;text-align:left}
+
+hr {border: 0; width: 98%;color: grey;background:grey;height: .1em;margin-left:0}
+
+/*Product Upload html*/
+
+
+div#pnav{background:#ECEFF5;float:left;width:0%;height:auto}
+div#newbid{background:white;float:left;left:40%;width:100%;margin-top:2%;height:400px;text-align:left}
+div#pext{background:#ECEFF5;float:right;left:75%;width:0%;height:auto}
+
+table.prod { background: #ff0; border: solid black; empty-cells: hide }
+
+
+/*http://wiki.developers.facebook.com/index.php/FAQ#What_are_the_colors_Facebook_uses.3F*/

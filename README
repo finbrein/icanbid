@@ -1,0 +1,24 @@
+Welcome to iCANBID Java / J2EE Online Auction and Shopping Website 
+
+*********************************************************************************************************************
+Introduction
+
+This is a simple auction site that allows a user to browse and buy goods. 
+
+In this application, visitors can browse goods by Category. 
+
+Technologies used include Java, J2EE, JSP, HTML, CSS, MySQL. The development environment is Eclipse IDE for Java EE 
+developers.
+
+The AuctionApp folder contains the project demo including all the resources. 
+
+Note that the current installation of iCANBID is on my local machine. Therefore changes have to be done to make it run on 
+another machine. 
+
+My current effort is to improve the program further.
+
+Getting Help
+**********************************************************************************************************************
+If you have a question or need help with iCANBID auction site, you can get help from the following sources:
+
+* eMail: finbrein@gmail.com

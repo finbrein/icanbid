@@ -1,0 +1,113 @@
+<!--This is the Main Public Page HTML form -->
+<!--This is index.html file -->
+<!DOCTYPE HTML PUBLIC "-//W3C/DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>iCANBID Registration - ICANBID Inc</title> 
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+	</head>
+	<body>
+		<!-- DIV Implementation -->
+		<!-- Login Container -->
+		<div id="lcontainer">
+			<!-- Login Header -->
+			<div id="lheader">
+				<h1><a href="http://app.cc.puv.fi/mlogg/MainPublicPage.html">iCANBID</a></h1>
+				 <table>
+					<tr>				
+						<td><a href="#">Log Out</a><span class="link-delimiter"> | </span></td>
+						<td><a href="#">Account</a><span class="link-delimiter"> | </span></td>
+						<td><p class="parablue"><strong><a href="#">Bid</a><span class="link-delimiter"> | </span></strong></p></td>
+						<td><a href="#">About iCANBID</a></td>						
+					</tr>
+				</table>
+			</div> <!-- End Login Header -->
+			<!-- Top Navigation -->
+			<div id="topnav">top navigation</div>
+			<!-- Top Blank -->
+			<!-- div id="ltblank"><h2>Log In</h2></div> -->
+			
+	  <div id="newbid">
+		<h2>New Bid Item</h2>
+		<form name="profile" method="post" action="FileUploadServlet" enctype="multipart/form-data">
+			<table width="500" border="0">
+			    <tr> 
+					  <td width="150" bgcolor="#3B5998"><strong><font color="white">User Name</font></strong></td> 
+					  <td><input type="text" name="username" size="20" maxlength="20"></td> 
+				</tr>
+				<tr> 
+					  <td width="150" bgcolor="#3B5998"><strong><font color="white">Product Name</font></strong></td> 
+					  <td><input type="text" name="prodname" size="20" maxlength="20"></td> 
+				</tr>
+			    <tr> 
+					  <td width="150" bgcolor="#3B5998"><strong><font color="white">Unit Price</font></strong></td> 
+					  <td><input type="text" name="price" size="20" maxlength="20"></td> 
+				</tr>
+				
+				<tr>				
+					<td bgcolor="#3B5998"><strong><font color="white">Amount:</font></strong></td>
+					<td>
+						<select name="amount">
+							<option value="1">1
+							<option value="2">2
+							<option value="3">3
+							<option value="4">4
+							<option value="5">5
+							<option value="10">10
+							<option value="50">50
+							<option value="100">100
+						</select>
+					</td>
+				</tr>
+						
+				<tr>
+				 <td bgcolor="#3B5998"><strong><font color="white">Product Category</font></strong></td> 
+				 <td>
+					<select name="category" id="category">
+					  <optgroup label="Computers">
+						<option value="">--</option> 
+						<option value="Components">Components</option> 
+						<option value="Desktop Computers">Desktop Computers</option> 
+						<option value="Laptop Computers">Laptop Computers</option> 
+						<option value="Monitors">Monitors</option> 
+						<option value="Networking">Networking</option> 
+						<option value="Printers & Scanners">Printers & Scanners</option> 
+						<option value="Software">Software</option> 
+					  </optgroup>
+					  <optgroup label="Electronics">
+						<option value="Cell Phones">Cell Phones</option> 
+						<option value="Digital Cameras">Digital Cameras</option> 
+						<option value="DVD Players & DVRs">DVD Players & DVRs</option> 
+						<option value="GPS Systems">GPS Systems</option> 
+						<option value="Home Audio">Home Audio</option> 
+						<option value="PDAs">PDAs</option> 
+						<option value="iPod & MP3 Players">iPod & MP3 Players</option> 
+						<option value="Portable DVD Players">Portable DVD Players</option> 
+						<option value="Digital Picture Frames">Digital Picture Frames</option>
+						<option value="Headphones">Headphones</option>
+						<option value="Home Security">Home Security</option>
+						<option value="Telephones">Telephones</option>
+						<option value="Video Accessories">Video Accessories</option>
+					  </optgroup>
+					  <optgroup label="Watches">
+						<option value="Mens Watches">Mens Watches</option>
+						<option value="Ladies Watches">Ladies Watches</option>
+					  </optgroup>
+					</select>
+				  </td>
+				</tr>	
+				<tr> 
+					  <td width="180" bgcolor="#3B5998" ><strong><font color="white">Upload product image (JPEG PREFERRED): </font></strong></td> 
+					  <td><input type="file" name="fileName" size="20" maxlength="20"></td> 
+				</tr>
+			</table>
+			<p>
+				<input type="submit" value="Add Item">
+				<input type="reset" value="Reset">
+			</p>
+		</form>
+		 </div>
+	  </div>
+	</body>
+</html>
